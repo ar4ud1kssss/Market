@@ -44,27 +44,14 @@ input.list:not(:checked) + label > img {
 	opacity: 0.1;
 }
 
-/*input.orientation:checked ~ div {
-	display: inline-table;
-	width: 200px !important;
-	<input type="checkbox" class="orientation"><br>
-
-
-}
-
-input.orientation:not(:checked) ~ div > .desription {
-	width: 860px;
-	margin-right: 0px;
-}*/
-
-.type_of_cat , h1 {
+.type_of_product , h1 {
 	font-family: 'Roboto', sans-serif;
 	text-decoration: underline;
 
 
 }
 
-.type_of_cat {
+.type_of_product {
 	height: 12px;
 	font-size: 10px;
 	margin-top: 0px;
@@ -85,7 +72,7 @@ p.price:after {
 	content: 'P';
 }
 
-img.cat_photo:hover {
+img.photo:hover {
 	opacity: 0.5;
 }
 
@@ -96,7 +83,7 @@ h1 {
 }
 
 
-img.cat_photo {
+img.photo {
 	width: 200px;
 
 }
@@ -114,7 +101,7 @@ a:hover {color: red;}
 }
 .elem { 
 	display: inline-block;
-	width: 1330px;
+	width: 1320px;
 	box-sizing: border-box;
 	/*border: solid 2px;*/
 	padding: 30px 15px 0px 30px;
@@ -122,18 +109,13 @@ a:hover {color: red;}
 }
 
 
-.desription {
-	vertical-align: top;
-	display: inline-block;
-	
 
-}
 
-.desription2 {
+.description {
 	margin-top: 0px;
 	vertical-align: top;
 	display: inline-block;
-	/*border: solid 2px;*/
+	border: solid 2px;
 	padding-left: 10px;
 
 }
